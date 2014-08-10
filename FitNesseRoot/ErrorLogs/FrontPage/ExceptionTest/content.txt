@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 8:16:25 AM (NZST) on Saturday, August 9, 2014 |
+|'''Test Page: '''|.FrontPage.ExceptionTest|
+|'''Command: '''| !-/home/andrew/bin/jdk1.8.0_05/bin/java -cp fitnesse-standalone.jar:defaultPath fitnesse.slim.SlimService 8094-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.458 seconds |
+

@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 10:35:39 AM (NZST) on Saturday, August 9, 2014 |
+|'''Test Page: '''|.FrontPage.SleepTest|
+|'''Command: '''| !-/home/andrew/bin/jdk1.8.0_05/bin/java -cp fitnesse-standalone.jar:/home/andrew/IdeaProjects/groovy-lochnesse/target/classes fitnesse.slim.SlimService 8089-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 2.384 seconds |
+

@@ -1,0 +1,5 @@
+!contents -R3
+
+!define TEST_SYSTEM {slim}
+
+FitNesse.UserGuide.TwoMinuteExample

@@ -1,0 +1,23 @@
+create 'account1'
+on 'account1' create 'campaign1'
+on 'campaign1' create 'ad1'
+on 'campaign1' create 'ad2'
+
+on 'campaign1' setMaxBid 11
+assert on('campaign1').getMaxBid() == 11
+
+on 'campaign1' setMaxBid 7
+assert on('campaign1').getMaxBid() == 7
+
+// check ads are shown only between start and stop times
+on 'ad1' setStartDate 1.week.from.now
+on 'ad1' setEndDate 3.week.from.now
+
+show 'account1'
+
+//        is 'ad1' running
+println 'is running = ' +  is('ad1').running
+
+clock 10.days
+
+println 'is running = ' +  is('ad1').getRunning()

@@ -1,0 +1,7 @@
+!path /home/andrew/IdeaProjects/groovy-lochnesse/target/classes
+
+
+
+|org.adscale.groovyLochnesse.Sleep|
+|seconds          |sleep?         |
+|10               |               |
